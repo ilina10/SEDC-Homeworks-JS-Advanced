@@ -1,5 +1,7 @@
 //First task
 
+//hahaha
+
 function makeTable(data) {
   let tableWithData = document.getElementById("table");
   let headings = document.createElement("thead");
