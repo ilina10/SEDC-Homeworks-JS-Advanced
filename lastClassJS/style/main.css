@@ -1,0 +1,42 @@
+body {
+  /* background-image: url("../img/Star-wars-logo-new-tall.webp"); */
+  background-attachment: fixed;
+}
+
+#planets,
+#films,
+#people,
+#species,
+#starships,
+#vehicles {
+  display: inline-block;
+  width: 10%;
+  padding: 2%;
+  margin: 3%;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.content {
+  width: 80%;
+  padding: 30px;
+  margin: 20px;
+}
+.singlePlanetCard,
+.singlePersonCard,
+.singleSpecieCard,
+.singleMovieCard,
+.singleStarshipCard,
+.singleVehicleCard {
+  background-color: whitesmoke;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  text-align: center;
+}
